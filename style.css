@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Public Sans", serif;
+}
+.body{
+    background-color: #EDF3F8;
+}
+.container{
+    padding: 0 165px;
+    margin: 0 auto;
+}
+.header{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.btn{
+    background-color: #BA4270;
+    color: aliceblue;
+    border-radius: 24px;
+    border: none;
+    width: 173px;
+    text-align: center;
+    align-content: center;
+    height: 48px;
+}
+.burger{
+    display: none;
+}
+.gang{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gang h1{
+    font-size: 72px;
+    font-weight: 500;
+    width: 546px;
+    line-height: 72px;
+    color: #36536B;
+}
+.img{
+    width: 263px;
+    height: 500px;
+}
+.gang2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aaa h1{
+    font-size: 48px;
+    line-height: 56px;
+    color: #36536B;
+}
+.aaa p{
+    margin-top: 24px;
+    color: #6C8294;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box p{
+    color: #36536B;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #1B262F;
+    margin: 0 auto;
+    padding: 31px 0px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hhh{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    
+}
+li{
+    color: #FBFCFE;
+}
+.kkk{
+    display: flex;
+    gap: 20px;
+}
+@media(max-width:919px) {
+  .container{
+   padding: 0 40px;
+  }
+  .gang{
+    flex-direction: column-reverse;
+  }
+  .gang h1{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+  }
+  .img{
+    width: 159px;
+    height: 300px;
+  }
+  .gang2{
+    flex-direction: column;
+  }
+  .main{
+    margin-top: 40px;
+  }
+}
+@media(max-width:672px){
+  .container{
+    padding: 0 24px;
+  }
+  .nav ul{
+    display: none;
+  }
+  .burger{
+    display: block;
+  }
+  .main{
+    flex-direction: column;
+    align-items: center;
+    gap: 164px;
+  }
+  .footer-box{
+    flex-direction: column;
+    
+  }
+  .hhh{
+    flex-direction: column;
+  }
+  .hhh ul{
+    flex-direction: column;
+  }
+  .kkk{
+    margin-top: 20px;
+  }
+}
